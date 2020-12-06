@@ -42,7 +42,6 @@ namespace Puzzle
             this.startBtn = new System.Windows.Forms.Button();
             this.buttonsContainer = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.buttonsContainer.SuspendLayout();
             this.SuspendLayout();
@@ -55,8 +54,7 @@ namespace Puzzle
             this.button1.Size = new System.Drawing.Size(133, 111);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button9_KeyDown);
+            this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button1_KeyDown);
             // 
             // button2
             // 
@@ -66,8 +64,7 @@ namespace Puzzle
             this.button2.Size = new System.Drawing.Size(133, 111);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            this.button2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button9_KeyDown);
+            this.button2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button2_KeyDown);
             // 
             // button3
             // 
@@ -77,8 +74,7 @@ namespace Puzzle
             this.button3.Size = new System.Drawing.Size(133, 111);
             this.button3.TabIndex = 2;
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            this.button3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button9_KeyDown);
+            this.button3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button3_KeyDown);
             // 
             // button4
             // 
@@ -88,8 +84,7 @@ namespace Puzzle
             this.button4.Size = new System.Drawing.Size(133, 111);
             this.button4.TabIndex = 3;
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            this.button4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button9_KeyDown);
+            this.button4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button4_KeyDown);
             // 
             // button5
             // 
@@ -99,8 +94,7 @@ namespace Puzzle
             this.button5.Size = new System.Drawing.Size(133, 111);
             this.button5.TabIndex = 4;
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            this.button5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button9_KeyDown);
+            this.button5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button5_KeyDown);
             // 
             // button6
             // 
@@ -110,8 +104,7 @@ namespace Puzzle
             this.button6.Size = new System.Drawing.Size(133, 111);
             this.button6.TabIndex = 5;
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            this.button6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button9_KeyDown);
+            this.button6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button6_KeyDown);
             // 
             // button7
             // 
@@ -121,8 +114,7 @@ namespace Puzzle
             this.button7.Size = new System.Drawing.Size(133, 111);
             this.button7.TabIndex = 6;
             this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            this.button7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button9_KeyDown);
+            this.button7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button7_KeyDown);
             // 
             // button8
             // 
@@ -132,8 +124,7 @@ namespace Puzzle
             this.button8.Size = new System.Drawing.Size(133, 111);
             this.button8.TabIndex = 7;
             this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            this.button8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button9_KeyDown);
+            this.button8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button8_KeyDown);
             // 
             // button9
             // 
@@ -143,7 +134,6 @@ namespace Puzzle
             this.button9.Size = new System.Drawing.Size(133, 111);
             this.button9.TabIndex = 8;
             this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
             this.button9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button9_KeyDown);
             // 
             // label1
@@ -188,44 +178,35 @@ namespace Puzzle
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(426, 633);
+            this.label2.Location = new System.Drawing.Point(435, 633);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(39, 16);
             this.label2.TabIndex = 12;
             this.label2.Text = "00:00";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(536, 618);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(136, 40);
-            this.button11.TabIndex = 13;
-            this.button11.Text = "State";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(384, 633);
+            this.label3.Location = new System.Drawing.Point(363, 633);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 13);
+            this.label3.Size = new System.Drawing.Size(66, 13);
             this.label3.TabIndex = 14;
-            this.label3.Text = "Timer:";
+            this.label3.Text = "Count Down";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(797, 846);
+            this.ClientSize = new System.Drawing.Size(797, 710);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button11);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.buttonsContainer);
             this.Controls.Add(this.startBtn);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonsContainer.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -247,7 +228,6 @@ namespace Puzzle
         private System.Windows.Forms.Button startBtn;
         private System.Windows.Forms.Panel buttonsContainer;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Label label3;
     }
 }
